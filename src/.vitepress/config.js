@@ -5,7 +5,8 @@ export default defineConfig({
   title: "开发者工具文档",
   description: "Devtools Doc",
 
-  outDir: '../dist',
+  outDir: '../docs',
+  base: '/chrome-devtools-doc-cn/',
 
   themeConfig: {
     logo: "/logo.png",
