@@ -20,7 +20,7 @@ const { Layout } = DefaultTheme;
 
 <style>
 .advertising {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   padding: 24px;
