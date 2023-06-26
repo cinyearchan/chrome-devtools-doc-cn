@@ -2,13 +2,17 @@ lockfileVersion: 5.4
 
 specifiers:
   '@algolia/client-search': ^4.14.3
+  file-save: ^0.2.0
   tslib: ^2.5.0
+  uppercamelcase: ^3.0.0
   vitepress: 1.0.0-alpha.45
   vitepress-plugin-autobar: ^1.0.8
 
 devDependencies:
   '@algolia/client-search': 4.14.3
+  file-save: 0.2.0
   tslib: 2.5.0
+  uppercamelcase: 3.0.0
   vitepress: 1.0.0-alpha.45_2r467mdhb7mblpaox4bg7fatdi
   vitepress-plugin-autobar: 1.0.8
 
@@ -552,6 +556,11 @@ packages:
       balanced-match: 1.0.2
     dev: true
 
+  /camelcase/4.1.0:
+    resolution: {integrity: sha512-FxAv7HpHrXbh3aPo4o2qxHay2lkLY3x5Mw3KeE4KQE8ysVfziWeRZDwcjauvwBSGEC/nXUPzZy8zeh4HokqOnw==}
+    engines: {node: '>=4'}
+    dev: true
+
   /csstype/2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npm.taobao.org/csstype/-/csstype-2.6.21.tgz}
     dev: true
@@ -588,6 +597,12 @@ packages:
 
   /estree-walker/2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npm.taobao.org/estree-walker/-/estree-walker-2.0.2.tgz}
+    dev: true
+
+  /file-save/0.2.0:
+    resolution: {integrity: sha512-teMqpbPLBDAHEDAPYEb8fGfng4S6eGZcsN0CLM1ow0w1vtqTMBwNmd82dEc81O3C1BEs1EY8L18Ma6Q6O++v1A==}
+    dependencies:
+      mkdirp: 0.5.6
     dev: true
 
   /fs.realpath/1.0.0:
@@ -660,6 +675,17 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
+    dev: true
+
+  /minimist/1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+    dev: true
+
+  /mkdirp/0.5.6:
+    resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
+    hasBin: true
+    dependencies:
+      minimist: 1.2.8
     dev: true
 
   /nanoid/3.3.4:
@@ -748,6 +774,13 @@ packages:
 
   /tslib/2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
+    dev: true
+
+  /uppercamelcase/3.0.0:
+    resolution: {integrity: sha512-zTWmRiOJACCdFGWjzye3L5cjSuVdZ/c8C0iHIwVbfORFD8IhGNAO6BOWkZ+fj+SI6/aFbdjGXE6gwPG780H4gQ==}
+    engines: {node: '>=4'}
+    dependencies:
+      camelcase: 4.1.0
     dev: true
 
   /vite/4.1.1:

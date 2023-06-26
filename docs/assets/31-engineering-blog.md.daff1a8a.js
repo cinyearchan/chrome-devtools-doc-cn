@@ -1,0 +1,1 @@
+import{_ as e,c as n,o as t}from"./app.d3f04dc6.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"31-engineering-blog.md"}'),r={name:"31-engineering-blog.md"};function o(a,s,c,i,_,p){return t(),n("div")}const l=e(r,[["render",o]]);export{d as __pageData,l as default};

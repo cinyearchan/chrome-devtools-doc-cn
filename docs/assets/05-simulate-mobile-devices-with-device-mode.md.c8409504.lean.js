@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as i}from"./app.d3f04dc6.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"05-simulate-mobile-devices-with-device-mode.md"}'),o={name:"05-simulate-mobile-devices-with-device-mode.md"};function a(c,s,r,d,m,n){return i(),t("div")}const p=e(o,[["render",a]]);export{_ as __pageData,p as default};

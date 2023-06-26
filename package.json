@@ -13,7 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "@algolia/client-search": "^4.14.3",
+    "file-save": "^0.2.0",
     "tslib": "^2.5.0",
+    "uppercamelcase": "^3.0.0",
     "vitepress": "1.0.0-alpha.45",
     "vitepress-plugin-autobar": "^1.0.8"
   }
