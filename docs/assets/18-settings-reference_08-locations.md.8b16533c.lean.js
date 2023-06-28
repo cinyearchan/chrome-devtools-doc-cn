@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.0f6ac4aa.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"18-settings-reference/08-locations.md"}'),s={name:"18-settings-reference/08-locations.md"};function a(n,r,c,i,_,p){return o(),t("div")}const l=e(s,[["render",a]]);export{f as __pageData,l as default};

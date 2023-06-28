@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t}from"./app.0f6ac4aa.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"03-elements/css/07-css-features-reference.md"}'),r={name:"03-elements/css/07-css-features-reference.md"};function a(c,n,o,f,_,p){return t(),s("div")}const i=e(r,[["render",a]]);export{d as __pageData,i as default};

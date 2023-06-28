@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t}from"./app.0f6ac4aa.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"13-rendering/01-rendering-tab-overview.md"}'),n={name:"13-rendering/01-rendering-tab-overview.md"};function a(o,i,s,c,d,_){return t(),r("div")}const v=e(n,[["render",a]]);export{m as __pageData,v as default};

@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r}from"./app.0f6ac4aa.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"18-settings-reference/07-throttling.md"}'),n={name:"18-settings-reference/07-throttling.md"};function o(s,a,c,i,_,p){return r(),e("div")}const l=t(n,[["render",o]]);export{f as __pageData,l as default};

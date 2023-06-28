@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.0f6ac4aa.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"14-security/04-webauthn-emulate-authnticators.md"}'),r={name:"14-security/04-webauthn-emulate-authnticators.md"};function n(s,c,o,u,i,_){return a(),e("div")}const d=t(r,[["render",n]]);export{p as __pageData,d as default};

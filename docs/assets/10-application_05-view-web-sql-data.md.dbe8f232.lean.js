@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./app.0f6ac4aa.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"10-application/05-view-web-sql-data.md"}'),o={name:"10-application/05-view-web-sql-data.md"};function r(s,c,n,i,p,_){return t(),a("div")}const m=e(o,[["render",r]]);export{l as __pageData,m as default};

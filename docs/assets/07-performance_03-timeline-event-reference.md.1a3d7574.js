@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.0f6ac4aa.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"07-performance/03-timeline-event-reference.md"}'),n={name:"07-performance/03-timeline-event-reference.md"};function a(c,o,s,i,m,p){return r(),t("div")}const d=e(n,[["render",a]]);export{_ as __pageData,d as default};

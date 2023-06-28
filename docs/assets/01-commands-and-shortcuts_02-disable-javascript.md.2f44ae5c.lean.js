@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e}from"./app.0f6ac4aa.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"01-commands-and-shortcuts/02-disable-javascript.md"}'),s={name:"01-commands-and-shortcuts/02-disable-javascript.md"};function r(c,o,n,d,i,p){return e(),t("div")}const l=a(s,[["render",r]]);export{_ as __pageData,l as default};

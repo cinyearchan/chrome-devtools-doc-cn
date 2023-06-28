@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as r}from"./app.0f6ac4aa.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"15-remote-debugging/02-access-local-servers.md"}'),t={name:"15-remote-debugging/02-access-local-servers.md"};function a(c,o,n,_,d,i){return r(),s("div")}const m=e(t,[["render",a]]);export{p as __pageData,m as default};

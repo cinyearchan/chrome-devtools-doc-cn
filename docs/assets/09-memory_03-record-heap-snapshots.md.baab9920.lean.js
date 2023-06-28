@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.0f6ac4aa.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"09-memory/03-record-heap-snapshots.md"}'),o={name:"09-memory/03-record-heap-snapshots.md"};function r(s,c,n,p,d,m){return a(),t("div")}const h=e(o,[["render",r]]);export{i as __pageData,h as default};

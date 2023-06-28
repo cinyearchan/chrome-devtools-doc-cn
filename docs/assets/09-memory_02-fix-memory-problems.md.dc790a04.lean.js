@@ -1,0 +1,1 @@
+import{_ as e,c as r,o}from"./app.0f6ac4aa.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"09-memory/02-fix-memory-problems.md"}'),t={name:"09-memory/02-fix-memory-problems.md"};function m(a,s,c,n,p,i){return o(),r("div")}const f=e(t,[["render",m]]);export{d as __pageData,f as default};

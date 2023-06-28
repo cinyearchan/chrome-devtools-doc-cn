@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as s}from"./app.0f6ac4aa.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"04-console/02-log-messages-in-the-console.md"}'),t={name:"04-console/02-log-messages-in-the-console.md"};function n(a,c,r,l,_,i){return s(),o("div")}const d=e(t,[["render",n]]);export{m as __pageData,d as default};

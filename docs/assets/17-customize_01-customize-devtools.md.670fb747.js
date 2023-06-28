@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.0f6ac4aa.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"17-customize/01-customize-devtools.md"}'),s={name:"17-customize/01-customize-devtools.md"};function a(c,r,n,i,m,_){return o(),t("div")}const l=e(s,[["render",a]]);export{p as __pageData,l as default};

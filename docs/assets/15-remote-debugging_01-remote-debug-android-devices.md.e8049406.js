@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.0f6ac4aa.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"15-remote-debugging/01-remote-debug-android-devices.md"}'),r={name:"15-remote-debugging/01-remote-debug-android-devices.md"};function a(d,n,s,c,i,m){return o(),t("div")}const g=e(r,[["render",a]]);export{p as __pageData,g as default};

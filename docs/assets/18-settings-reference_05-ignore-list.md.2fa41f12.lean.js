@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.0f6ac4aa.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"18-settings-reference/05-ignore-list.md"}'),s={name:"18-settings-reference/05-ignore-list.md"};function n(o,a,c,i,_,p){return r(),t("div")}const l=e(s,[["render",n]]);export{f as __pageData,l as default};

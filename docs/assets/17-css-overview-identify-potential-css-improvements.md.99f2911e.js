@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s}from"./app.d3f04dc6.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"17-css-overview-identify-potential-css-improvements.md"}'),o={name:"17-css-overview-identify-potential-css-improvements.md"};function n(r,a,i,c,p,m){return s(),t("div")}const v=e(o,[["render",n]]);export{_ as __pageData,v as default};

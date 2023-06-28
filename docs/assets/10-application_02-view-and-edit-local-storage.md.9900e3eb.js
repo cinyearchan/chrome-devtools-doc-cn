@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.0f6ac4aa.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"10-application/02-view-and-edit-local-storage.md"}'),o={name:"10-application/02-view-and-edit-local-storage.md"};function r(c,n,i,s,d,p){return a(),t("div")}const m=e(o,[["render",r]]);export{_ as __pageData,m as default};

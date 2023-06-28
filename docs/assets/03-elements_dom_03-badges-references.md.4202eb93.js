@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./app.0f6ac4aa.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"03-elements/dom/03-badges-references.md"}'),r={name:"03-elements/dom/03-badges-references.md"};function a(n,o,c,d,m,_){return s(),t("div")}const i=e(r,[["render",a]]);export{f as __pageData,i as default};

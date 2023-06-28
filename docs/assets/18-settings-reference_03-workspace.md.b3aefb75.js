@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.0f6ac4aa.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"18-settings-reference/03-workspace.md"}'),s={name:"18-settings-reference/03-workspace.md"};function a(c,o,n,p,_,i){return r(),t("div")}const m=e(s,[["render",a]]);export{f as __pageData,m as default};

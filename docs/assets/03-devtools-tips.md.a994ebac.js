@@ -1,1 +1,0 @@
-import{_ as t,c as e,o}from"./app.d3f04dc6.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"03-devtools-tips.md"}'),s={name:"03-devtools-tips.md"};function a(r,c,n,p,i,_){return o(),e("div")}const m=t(s,[["render",a]]);export{l as __pageData,m as default};

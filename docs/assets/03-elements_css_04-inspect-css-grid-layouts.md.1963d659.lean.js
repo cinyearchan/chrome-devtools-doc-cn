@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t}from"./app.0f6ac4aa.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"03-elements/css/04-inspect-css-grid-layouts.md"}'),a={name:"03-elements/css/04-inspect-css-grid-layouts.md"};function c(r,n,o,i,p,d){return t(),s("div")}const m=e(a,[["render",c]]);export{l as __pageData,m as default};

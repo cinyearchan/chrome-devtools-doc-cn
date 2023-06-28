@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"./app.0f6ac4aa.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"04-console/06-console-features-reference.md"}'),r={name:"04-console/06-console-features-reference.md"};function s(n,a,c,f,_,l){return t(),o("div")}const i=e(r,[["render",s]]);export{d as __pageData,i as default};

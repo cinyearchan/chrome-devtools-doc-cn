@@ -14,83 +14,95 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Overview',
-        link: '/00-test'
+        link: '/00-guide/01-overview'
       },
       {
         text: 'Open Chrome DevTools',
-        link: '/01-test'
+        link: '/00-guide/02-open-chrome-devtools'
       },
       {
         text: 'What\'s New in DevTools',
-        link: '/02-test'
+        link: '/00-guide/03-whats-new-in-devtools'
       },
       {
         text: 'DevTools tips',
-        link: '/03-test'
+        link: 'https://developer.chrome.com/tags/devtools-tips/'
       },
       {
         text: "Commands and shortcuts",
+        collapsed: true,
         items: [
           {
             text: "run commands in the command menu",
-            link: "/guide/05-when-writing-tests"
+            link: "/01-commands-and-shortcuts/01-run-commands-in-the-command-menu"
           },
           {
             text: 'Disable JavaScript',
-            link: "/Disable-JavaScript"
+            link: "/01-commands-and-shortcuts/02-disable-javascript"
           },
           {
             text: 'Keyboard shortcuts',
-            link: '/Keyboard-shortcuts'
+            link: '/01-commands-and-shortcuts/03-keyboard-shortcuts'
           }
         ]
       },
       {
+        text: 'Simulate mobile devices with Device Mode',
+        link: '/02-simulate/01-simulate-mobile-devices-with-device-mode'
+      },
+      {
         text: 'Elements',
+        collapsed: true,
         items: [
           {
             text: 'DOM',
+            collapsed: true,
             items: [
               {
                 text: 'Get started with viewing and changing the DOM',
-                link: '/get-started-with-viewing-and-changing-the-DOM'
+                link: '/03-elements/dom/01-get-started-with-viewing-and-changing-the-dom'
               },
               {
                 text: 'View the properties of DOM objects',
-                link: '/View-the-properties-of-DOM-objects'
+                link: '/03-elements/dom/02-view-the-properties-of-dom-objects'
               },
               {
                 text: 'Badges reference',
-                link: '/Badge-reference'
+                link: '/03-elements/dom/03-badges-reference'
               }
             ]
           },
           {
             text: 'CSS',
+            collapsed: true,
             items: [
               {
                 text: 'View and change CSS',
-                link: '/view-and-change'
+                link: '/03-elements/css/01-view-and-change-css'
               },
               {
                 text: 'Find invalid, overridden, inactive, and other CSS',
-                link: '/find-invalid-change'
+                link: '/03-elements/css/02-find-invalid-overridden-inactive-and-other-css'
+              },
+              {
+                text: 'Inspect and debug HD and non-HD colors with the Color Picker',
+                link: '/03-elements/css/03-inspect-and-debug-hd-and-non-hd-colors-with-the-color-picker'
               },
               {
                 text: 'Inspect CSS grid layouts',
-                link: '/inspect'
+                link: '/03-elements/css/04-inspect-css-grid-layouts'
               },
               {
                 text: 'Inspect and debug CSS flexbox layouts',
-                link: '/inspect flexbox'
+                link: '/03-elements/css/05-inspect-and-debug-css-flexbox-layouts'
               },
               {
                 text: 'Inspect and debug CSS container queries',
-                link: '/inspect container'
+                link: '/03-elements/css/06-inspect-and-debug-css-container-queries'
               },
               {
                 text: 'CSS features reference',
-                link: 'css features reference'
+                link: '/03-elements/css/07-css-features-reference'
               }
             ]
           }
@@ -98,277 +110,377 @@ export default defineConfig({
       },
       {
         text: 'Console',
+        collapsed: true,
         items: [
           {
             text: 'Console overview',
-            link: '/console'
+            link: '/04-console/01-console-overview'
           },
           {
             text: 'Log messages in the Console',
-            link: '/log'
+            link: '/04-console/02-log-messages-in-the-console'
           },
           {
             text: 'Run JavaScript in the Console',
-            link: '/run'
+            link: '/04-console/03-run-javascript-in-the-console'
           },
           {
             text: 'Watch JavaScript values in real-time with Live Expressions',
-            link: '/watch'
+            link: '/04-console/04-watch-javascript-values-in-realtime-with-live-expressions'
           },
           {
             text: 'Format and style messages in the Console',
-            link: '/format'
+            link: '/04-console/05-format-and-style-messages-in-the-console'
           },
           {
             text: 'Console features reference',
-            link: '/console-features'
+            link: '/04-console/06-console-features-reference'
           },
           {
             text: 'Console API reference',
-            link: '/console-api'
+            link: '/04-console/07-console-api-reference'
           },
           {
             text: 'Console Utilities API reference',
-            link: '/console-utilities-api'
+            link: '/04-console/08-console-utilities-api-reference'
           }
         ]
       },
       {
         text: 'Sources',
+        collapsed: true,
         items: [
           {
             text: 'Sources panel overview',
-            link: 'test'
+            link: '/05-sources/01-sources-panel-overview'
           },
           {
             text: 'Debug JavaScript',
-            link: 'test'
+            link: '/05-sources/02-debug-javascript'
           },
           {
             text: 'Pause your code with breakpoints',
-            link: 'test'
+            link: '/05-sources/03-pause-your-code-with-breakpoints'
           },
           {
             text: 'Run snippets of JavaScript',
-            link: 'test'
+            link: '/05-sources/04-run-snippets-of-javascript'
+          },
+          {
+            text: 'Debug your original code instead of deployed with source maps',
+            link: '/05-sources/05-debug-your-original-code-instead-of-deployed-with-source-maps'
           },
           {
             text: 'Edit and save files with Workspaces',
-            link: 'test'
+            link: '/05-sources/06-edit-and-save-files-with-workspaces'
+          },
+          {
+            text: 'Override files and HTTP response headers locally',
+            link: '/05-sources/07-override-files-and-http-response-headers-locally'
           },
           {
             text: 'JavaScript debugging reference',
-            link: 'test'
+            link: '/05-sources/08-javascript-debugging-reference'
+          },
+          {
+            text: 'Debug C/C++ WebAssembly',
+            link: '/05-sources/09-debug-c-c++-webassembly'
           }
         ]
       },
       {
         text: 'Network',
+        collapsed: true,
         items: [
           {
             text: 'Inspect network activity',
-            link: 'test'
+            link: '/06-network/01-inspect-network-activity'
           },
           {
             text: 'Network features reference',
-            link: 'test'
+            link: '/06-network/02-network-features-reference'
           },
           {
             text: 'View page resource',
-            link: 'test'
+            link: '/06-network/03-view-page-resources'
           }
         ]
       },
       {
         text: 'Performance',
+        collapsed: true,
         items: [
           {
             text: 'Analyze runtime performance',
-            link: 'test'
+            link: '/07-performance/01-analyze-runtime-performance'
           },
           {
             text: 'Performance features reference',
-            link: 'test'
+            link: '/07-performance/02-performance-features-reference'
           },
           {
             text: 'Timeline event reference',
-            link: 'test'
+            link: '/07-performance/03-timeline-event-reference'
           }
         ]
       },
       {
         text: 'Performance insights: Get actionable insights on your website\'s performance',
-        link: 'test'
+        link: '/07-performance/04-performance-insights-get-actionable-insights-on-your-websites-performance'
+      },
+      {
+        text: 'Lighthouse: Optimize website speed',
+        link: '/08-lighthouse/01-lighthouse-optimize-website-speed'
       },
       {
         text: 'Memory',
+        collapsed: true,
         items: [
           {
             text: 'Memory terminology',
-            link: 'test'
+            link: '/09-memory/01-memory-terminology'
           },
           {
             text: 'Fix memory problems',
-            link: 'test'
+            link: '/09-memory/02-fix-memory-problems'
           },
           {
             text: 'Record heap snapshots',
-            link: 'test'
+            link: '/09-memory/03-record-heap-snapshots'
           },
           {
             text: 'How to Use the Allocation Profiler Tool',
-            link: 'test'
+            link: '/09-memory/04-how-to-use-the-allocation-profiler-tool'
           }
         ]
       },
       {
         text: 'Application',
+        collapsed: true,
         items: [
           {
-            text: 'Animations: Inspect and modify CSS animation effects',
-            link: 'test'
+            text: 'Debug Progressive Web Apps',
+            link: '/10-application/01-debug-progressive-web-apps'
           },
           {
-            text: 'Changes: Track your HTML, CSS, and JavaScript changes',
-            link: 'test'
+            text: 'View and edit local storage',
+            link: '/10-application/02-view-and-edit-local-storage'
           },
           {
-            text: 'Coverage: Find unused JavaScript and CSS',
-            link: 'test'
+            text: 'View and edit session storage',
+            link: '/10-application/03-view-and-edit-session-storage'
           },
           {
-            text: 'CSS Overview: Identity potential CSS improvements',
-            link: 'test'
+            text: 'View and change IndexedDB data',
+            link: '/10-application/04-view-and-change-indexeddb-data'
           },
           {
-            text: 'Issues: Find and fix problems',
-            link: 'test'
+            text: 'View Web SQL data',
+            link: '/10-application/05-view-web-sql-data'
           },
           {
-            text: 'Media: View and debug media players information',
-            link: 'test'
+            text: 'View, add, edit, and delete cookies',
+            link: '/10-application/06-view-add-edit-and-delete-cookies'
           },
           {
-            text: 'Memory Inspector: Inspect ArrayBuffer, TypedArray, DataView, and Wasm Memory',
-            link: 'test'
+            text: 'View cache data',
+            link: '/10-application/07-view-cache-data'
           },
           {
-            text: 'Network conditions: Override the user agent string'
+            text: 'Test back/forward cache',
+            link: '/10-application/08-test-back-forward-cache'
+          },
+          {
+            text: 'Debug background services',
+            link: '/10-application/09-debug-background-services'
+          },
+          {
+            text: 'Deprecated: View Application Cache Data With Chrome DevTools',
+            link: '/10-application/10-deprecated-view-application-cache-data-with-chrome-devtools'
           }
         ]
       },
       {
+        text: 'Animations: Inspect and modify CSS animation effects',
+        link: '/11-inspect-and-track/01-animations-inspect-and-modify-css-animation-effects'
+      },
+      {
+        text: 'Changes: Track your HTML, CSS, and JavaScript changes',
+        link: '/11-inspect-and-track/02-changes-track-your-html-css-and-javascript-changes'
+      },
+      {
+        text: 'Coverage: Find unused JavaScript and CSS',
+        link: '/11-inspect-and-track/03-coverage-find-unused-javascript-and-css'
+      },
+      {
+        text: 'Developer Resources: View and manually load source maps',
+        link: '/11-inspect-and-track/04-developer-resources-view-and-manually-load-source-maps'
+      },
+      {
+        text: 'CSS Overview: Identity potential CSS improvements',
+        link: '/11-inspect-and-track/05-css-overview-identify-potential-css-improvements'
+      },
+      {
+        text: 'Issues: Find and fix problems',
+        link: '/11-inspect-and-track/06-issues-find-and-fix-problems'
+      },
+      {
+        text: 'Media: View and debug media players information',
+        link: '/11-inspect-and-track/07-media-view-and-debug-media-players-information'
+      },
+      {
+        text: 'Memory Inspector: Inspect ArrayBuffer, TypedArray, DataView, and Wasm Memory',
+        link: '/11-inspect-and-track/08-memory-inspector-inspect-arraybuffer-typedarray-dataview-and-wasm-memory'
+      },
+      {
+        text: 'Network conditions: Override the user agent string',
+        link: '/11-inspect-and-track/09-network-conditions-override-the-user-agent-string'
+      },
+      {
         text: 'Recorder',
+        collapsed: true,
         items: [
           {
             text: 'Record, replay, and measure user flows',
-            link: 'test'
+            link: '/12-recorder/01-record-replay-and-measure-user-flows'
           },
           {
-            text: 'Recorder features reference',
-            link: 'test'
+            text: 'Features reference',
+            link: '/12-recorder/02-features-reference'
+          },
+          {
+            text: 'Customize the Recorder with extensions',
+            link: '/12-recorder/03-customize-the-recorder-with-extensions'
           }
         ]
       },
       {
         text: 'Rendering',
+        collapsed: true,
         items: [
           {
             text: 'Rendering tab overview',
-            link: 'test'
+            link: '/13-rendering/01-rendering-tab-overview'
           },
           {
             text: 'Discover issues with rendering performance',
-            link: 'test'
+            link: '/13-rendering/02-discover-issues-with-rendering-performance'
           },
           {
             text: 'Emulate CSS media features',
-            link: 'test'
+            link: '/13-rendering/03-emulate-css-media-features'
           },
           {
             text: 'Apply other effects: enable automatic dark theme, emulate focus, and more',
-            link: 'test'
+            link: '/13-rendering/04-apply-other-effects-enable-automatic-dark-theme-emulate-focus-and-more'
           }
         ]
       },
       {
         text: 'Security: Understand security issues',
-        link: 'test'
+        link: '/14-security/01-security-understand-security-issues'
       },
       {
         text: 'Search: Find text across all loaded resources',
-        link: 'test'
+        link: '/14-security/02-search-find-text-across-all-loaded-resources'
       },
       {
         text: 'Sensors: Emulate device sensors',
-        link: 'test'
+        link: '/14-security/03-sensors-emulate-device-sensors'
       },
       {
-        text: 'WebAuthn: Emulate authenticators',
-        link: 'test'
+        text: 'WebAuth: Emulate authenticators',
+        link: '/14-security/04-webauth-emulate-authenticators'
       },
       {
         text: 'Remote debugging',
+        collapsed: true,
         items: [
           {
             text: 'Remote debug Android devices',
-            link: 'test'
+            link: '/15-remote-debugging/01-remote-debug-android-devices'
           },
           {
             text: 'Access local servers',
-            link: 'test'
+            link: '/15-remote-debugging/02-access-local-servers'
           },
           {
             text: 'Remote debugging WebViews',
-            link: 'test'
+            link: '/15-remote-debugging/03-remote-debugging-webviews'
           }
         ]
       },
       {
         text: 'Accessibility',
+        collapsed: true,
         items: [
           {
             text: 'Accessibility features reference',
-            link: 'test'
+            link: '/16-accessibility/01-accessibility-features-reference'
           },
           {
             text: 'Make your website more readable',
-            link: 'test'
+            link: '/16-accessibility/02-make-your-website-more-readable'
           },
           {
             text: 'Navigate Chrome DevTools with assistive technology',
-            link: 'test'
+            link: '/16-accessibility/03-navigate-chrome-devtools-with-assistive-technology'
           },
           {
             text: 'Track element focus',
-            link: 'test'
+            link: '/16-accessibility/04-track-element-focus'
           }
         ]
       },
       {
-        text: 'Settings and customization',
+        text: 'Customize DevTools',
+        link: '/17-customize/01-customize-devtools'
+      },
+      {
+        text: 'Settings reference',
+        collapsed: true,
         items: [
           {
-            text: 'Customize',
-            link: 'test'
+            text: 'Settings overview',
+            link: '/18-settings-reference/01-settings-overview'
           },
           {
-            text: 'Enable dark theme',
-            link: 'test'
+            text: 'Preferences',
+            link: '/18-settings-reference/02-preferences'
           },
           {
-            text: 'Change placement: undock, dock to bottom, dock to left',
-            link: 'test'
+            text: 'Workspace',
+            link: '/18-settings-reference/03-workspace'
           },
           {
-            text: 'Ignore Chrome Extension Scripts',
-            link: 'test'
+            text: 'Experiments',
+            link: '/18-settings-reference/04-experiments'
+          },
+          {
+            text: 'Ignore List',
+            link: '/18-settings-reference/05-ignore-list'
+          },
+          {
+            text: 'Devices',
+            link: '/18-settings-reference/06-devices'
+          },
+          {
+            text: 'Throttling',
+            link: '/18-settings-reference/07-throttling'
+          },
+          {
+            text: 'Locations',
+            link: '/18-settings-reference/08-locations'
+          },
+          {
+            text: 'Shortcuts',
+            link: '/18-settings-reference/09-shortcuts'
           }
         ]
       },
       {
         text: 'Engineering blog',
-        link: 'test'
+        link: 'https://developer.chrome.com/tags/devtools-engineering/'
       }
     ]
   },

@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t}from"./app.0f6ac4aa.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"10-application/07-view-cache-data.md"}'),c={name:"10-application/07-view-cache-data.md"};function o(r,n,i,s,p,_){return t(),e("div")}const m=a(c,[["render",o]]);export{l as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r}from"./app.0f6ac4aa.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"06-network/01-inspect-network-activity.md"}'),n={name:"06-network/01-inspect-network-activity.md"};function o(a,c,s,i,p,_){return r(),e("div")}const f=t(n,[["render",o]]);export{m as __pageData,f as default};

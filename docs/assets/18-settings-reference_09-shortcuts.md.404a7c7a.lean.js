@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.0f6ac4aa.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"18-settings-reference/09-shortcuts.md"}'),s={name:"18-settings-reference/09-shortcuts.md"};function c(o,a,n,_,i,p){return r(),t("div")}const m=e(s,[["render",c]]);export{f as __pageData,m as default};

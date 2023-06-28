@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.0f6ac4aa.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"06-network/03-view-page-resources.md"}'),a={name:"06-network/03-view-page-resources.md"};function o(s,c,n,p,i,_){return r(),t("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};

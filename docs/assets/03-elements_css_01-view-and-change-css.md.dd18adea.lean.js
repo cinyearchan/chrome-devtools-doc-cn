@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t}from"./app.0f6ac4aa.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"03-elements/css/01-view-and-change-css.md"}'),a={name:"03-elements/css/01-view-and-change-css.md"};function n(c,r,o,d,i,_){return t(),s("div")}const l=e(a,[["render",n]]);export{m as __pageData,l as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as s,o as t}from"./app.d3f04dc6.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"18-issues-find-and-fix-problems.md"}'),a={name:"18-issues-find-and-fix-problems.md"};function n(r,o,i,c,d,p){return t(),s("div")}const m=e(a,[["render",n]]);export{f as __pageData,m as default};

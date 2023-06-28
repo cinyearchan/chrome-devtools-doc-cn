@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.0f6ac4aa.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"13-rendering/03-emulate-css-media-features.md"}'),r={name:"13-rendering/03-emulate-css-media-features.md"};function s(n,c,o,d,i,m){return a(),t("div")}const u=e(r,[["render",s]]);export{p as __pageData,u as default};

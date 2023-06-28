@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./app.0f6ac4aa.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"10-application/04-view-and-change-indexeddb-data.md"}'),n={name:"10-application/04-view-and-change-indexeddb-data.md"};function d(c,o,i,r,s,p){return t(),a("div")}const m=e(n,[["render",d]]);export{l as __pageData,m as default};

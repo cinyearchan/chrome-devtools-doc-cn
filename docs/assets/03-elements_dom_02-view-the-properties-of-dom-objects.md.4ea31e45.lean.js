@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./app.0f6ac4aa.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"03-elements/dom/02-view-the-properties-of-dom-objects.md"}'),r={name:"03-elements/dom/02-view-the-properties-of-dom-objects.md"};function s(a,c,n,p,i,m){return o(),t("div")}const f=e(r,[["render",s]]);export{_ as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./app.0f6ac4aa.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"05-sources/04-run-snippets-of-javascript.md"}'),a={name:"05-sources/04-run-snippets-of-javascript.md"};function r(n,o,c,p,i,_){return s(),t("div")}const u=e(a,[["render",r]]);export{d as __pageData,u as default};

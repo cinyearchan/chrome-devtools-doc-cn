@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"./app.0f6ac4aa.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"00-guide/02-open-chrome-devtools.md"}'),r={name:"00-guide/02-open-chrome-devtools.md"};function a(s,n,c,p,d,_){return t(),o("div")}const l=e(r,[["render",a]]);export{m as __pageData,l as default};

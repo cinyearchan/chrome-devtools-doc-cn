@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as r}from"./app.0f6ac4aa.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"09-memory/01-memory-terminology.md"}'),t={name:"09-memory/01-memory-terminology.md"};function m(a,n,s,c,i,_){return r(),o("div")}const l=e(t,[["render",m]]);export{d as __pageData,l as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./app.0f6ac4aa.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"16-accessibility/02-make-your-website-more-readable.md"}'),r={name:"16-accessibility/02-make-your-website-more-readable.md"};function o(s,c,i,n,d,m){return t(),a("div")}const p=e(r,[["render",o]]);export{l as __pageData,p as default};

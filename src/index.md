@@ -21,7 +21,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /00-overview
+      link: /00-guide/01-overview
     - theme: alt
       text: View on GitHub
       link: https://github.com/cinyearchan/chrome-devtools-doc-cn

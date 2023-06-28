@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./app.d3f04dc6.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"02-whats-new-in-devtools.md"}'),a={name:"02-whats-new-in-devtools.md"};function s(n,r,c,_,d,i){return o(),t("div")}const m=e(a,[["render",s]]);export{l as __pageData,m as default};

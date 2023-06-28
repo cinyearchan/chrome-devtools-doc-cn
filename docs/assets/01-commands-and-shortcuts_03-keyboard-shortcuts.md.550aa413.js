@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./app.0f6ac4aa.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"01-commands-and-shortcuts/03-keyboard-shortcuts.md"}'),s={name:"01-commands-and-shortcuts/03-keyboard-shortcuts.md"};function a(r,c,n,d,m,_){return o(),e("div")}const u=t(s,[["render",a]]);export{i as __pageData,u as default};

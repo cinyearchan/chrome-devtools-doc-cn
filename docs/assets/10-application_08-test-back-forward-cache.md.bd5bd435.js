@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t}from"./app.0f6ac4aa.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"10-application/08-test-back-forward-cache.md"}'),c={name:"10-application/08-test-back-forward-cache.md"};function r(o,s,n,p,i,d){return t(),e("div")}const l=a(c,[["render",r]]);export{f as __pageData,l as default};

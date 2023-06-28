@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as a}from"./app.0f6ac4aa.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"07-performance/02-performance-features-reference.md"}'),t={name:"07-performance/02-performance-features-reference.md"};function c(n,o,s,f,p,m){return a(),r("div")}const i=e(t,[["render",c]]);export{d as __pageData,i as default};

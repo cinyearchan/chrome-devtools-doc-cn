@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as c}from"./app.0f6ac4aa.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"16-accessibility/04-track-element-focus.md"}'),a={name:"16-accessibility/04-track-element-focus.md"};function s(r,o,n,i,_,l){return c(),t("div")}const d=e(a,[["render",s]]);export{p as __pageData,d as default};

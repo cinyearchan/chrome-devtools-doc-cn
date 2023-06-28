@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t}from"./app.0f6ac4aa.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"12-recorder/02-features-reference.md"}'),a={name:"12-recorder/02-features-reference.md"};function c(o,s,n,f,_,d){return t(),r("div")}const m=e(a,[["render",c]]);export{i as __pageData,m as default};

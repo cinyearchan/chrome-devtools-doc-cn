@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as a}from"./app.0f6ac4aa.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"12-recorder/01-record-replay-and-measure-user-flows.md"}'),o={name:"12-recorder/01-record-replay-and-measure-user-flows.md"};function s(t,c,n,d,p,l){return a(),r("div")}const f=e(o,[["render",s]]);export{m as __pageData,f as default};
